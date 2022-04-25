@@ -1,0 +1,511 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Poppins', sans-serif!important; */
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif!important;
+}
+.fonth2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+.fonth1{
+    font-size: 16px;
+}
+
+.mt-space{
+    margin-bottom: 70px;
+}
+.btn{
+    background-color: #023d60;
+    border-color:#023d60!important;
+}
+.btn:hover{
+    background-color: #023d60;
+    border-color: #023d60!important;
+}
+.container h2{
+    color: #023d60;
+}
+.container h1{
+    color: #023d60;
+    font-size: 20px;
+    font-weight: 600;
+}
+i.fa.fa-check-square-o {
+    color: green;
+    margin-right: 5px;
+}
+/* HEADER SECTION */
+.carousel-caption{
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    z-index: 800;
+}
+.carousel-caption a{
+    color: #fff;
+}
+.post{
+    background: #023d60;
+}
+.poster span{
+   padding: 0 8px 0 0px;
+}
+.poster{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background: #fff;
+    /* border-bottom: 1px solid #e5e5e5; */
+    box-shadow: 0px 2px 12px 0px #e5e5e5;
+}
+.logo img{
+    width: 216px;
+    height: 106px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list .navi-li {
+    display: flex;
+    padding-top: 56px;
+}
+.nav-list .navi-li li {
+    list-style: none;
+    padding: 0 8px 0 8px;
+    margin: 0 8px 0 8px;
+}
+.nav-list .navi-li li:hover {
+    background: #64ac4b;
+    border-radius: 16px;
+    padding: 4px 15px 4px 15px;
+    color: #fff;
+}
+
+.nav-list .navi-li li a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-list .navi-li li a:hover{
+    color: #fff;
+}
+section.cover img {
+    width: 100%;
+    height: 644px;
+}
+.cover img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* HOME SECTION */
+section.cover::before {
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 644px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+}
+/* SUB-MENU */
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: -91px;
+    z-index: 1;
+    background: white;
+      width: 344px;
+      /* transform: translateY(17px); */
+      border-radius: 6px 6px 6px 6px;
+      border: 1px solid #e5e5e5;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-right: 37px;
+  }
+  .subnav-content li {
+      padding-bottom: 5px!important;
+  }
+  ul.subnav-content li {
+    border-bottom: 1px solid #e5e5e5;
+}
+  .subnav-content a {
+    /* float: left; */
+    color: white;
+    text-decoration: none;
+  }
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  /* ul.nav-content {
+    width: 100%;
+  } */
+  .subnav{
+      position: relative;
+  }
+  
+/* ABOUT US */
+section.about-us {
+    margin-top: 20px;
+}
+.about-us p{
+    line-height: 29px;
+}
+.about-founder{
+    margin-bottom: 20px;
+}
+.space-pa-ma {
+    background: #e5e5e5;
+    padding: 30px;
+    border-radius: 10px;
+}
+.space-pa-ma:hover{
+    box-shadow: 0px 1px 10px 3px #023d60;
+}
+.about-founder{
+    margin-top: 15px;
+}
+
+/* FOOTER SECTION */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+footer{
+    position: relative;
+    color: #fff;
+    background: #000;
+    padding: 20px 0 20px 0;
+}
+footer h2{
+    color: #fff!important;
+}
+.footer-content h2{
+    font-size: 16px;
+}
+.footer-content p{
+    font-size: 11px;
+}
+.footer-content p a{
+    color: #fff;
+}
+.l-footer a{
+    color: #65ac4b;
+}
+
+/* HOME FORM SECTION */
+.input_field{
+    margin-bottom: 15px;
+}
+
+/* SETUP BUSINESS SECTION */
+.business-entities{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.listIndustry{
+    display: flex;
+    justify-content: space-between;
+}
+.listIndustry li{
+    width: 327px;
+    list-style: none;
+    height: 251px;
+}
+.listIndustry .name{
+    position: relative;
+    top: 0px;
+}
+.listIndustry .name img{
+    width: 327px;
+    height: 249px;
+}
+.listIndustry .name p{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 18px;
+}
+.listIndustry a{
+    position: relative;
+    color: #fff;
+}
+.listIndustry a:hover .over{
+    display: block;
+    position: absolute;
+    top: 0;
+    background: #6fb058;
+    padding: 5px;
+}
+.over {
+    width: 327px;
+    height: 249px;
+}
+
+.listIndustry .over{
+    display: none;
+}
+
+/* OUR SERVICES SECTION */
+.our-services h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.our-services .box{
+    border: 1px solid black;
+    width: 24%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 90px;
+    background: #e5e5e5;
+}
+
+.btnho {
+    /* margin-top: -1px; */
+    position: relative;
+    top: 32px;
+    border-radius: 32%;
+    transition: all 1s ease-in .3s;
+}
+.btnho a{
+    color: #fff!important;
+    text-decoration: none;
+}
+.btnho:hover {
+    background-color: #64ac4b;
+    height: 32px;
+    width: 186px;
+    border-radius: 100px;
+    font-size: 16px;
+}
+.our-services .box a{
+    color: #000;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+.business h2{
+    padding-bottom: 37px;
+}
+/* CIRCLE IMAGE SECTION */
+.circle-img img {
+    position: absolute;
+    width: 93%;
+    height: 608px;
+    z-index: -7;
+    opacity: 0.1;
+
+}
+
+
+
+
+/* TOUCH WITH US SECTION */
+.touch-with-us{
+    margin-top: 123px;
+    background: #e5e5e5;
+    padding: 30px;
+}
+.contact{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* TESTIMONIAL SECTION*/
+.testimonial{
+    text-align: center;
+    background-image: url('img/entities-cover.jpg');
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 1rem;
+   
+}
+.testimonial:before{
+    content: "";
+    background: rgba(0,0,0,.6);
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+
+#testimonial-content{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 0;
+    /* opacity: 0.9; */
+    z-index: 10;
+    position: relative; 
+}
+
+.testimonal-list li{ max-width: 90%;
+    margin: 0 auto;}
+.testimonial h1{
+    color: #fff;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.testimonial button:before{color: #fff!important;}
+ul.testimonal-list.slick-initialized.slick-slider{
+    max-width: 1203px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;    
+}
+.testimonal-list li{
+    /* border: 2px solid black; */
+    border-radius: 14px;
+    padding: 20px 7px;
+    background: #fff;
+}
+/* WHO WE ARE SECTION */
+.we-are {
+    display: flex;
+    justify-content: space-between;
+}
+.who-we-are-img img {
+    width: 472px;
+    height: 273px;
+    border: 4px solid #1f516d;
+    padding: 5px;
+    border-radius: 15px;
+}
+.who-we-are-img img:hover{
+    box-shadow: 0px 1px 9px 10px #e5e5e5;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+
+}
+.we-are .who-we-are-img {
+    width: 44%;
+}
+.we-are .who-we-are1 {
+    width: 40%;
+}
+.who-we-are2{
+    line-height: 7px;
+}
+
+/* AUDIT ASSURANCE SECTION */
+.sub-category-services{
+    margin: 20px 0 20px 0;
+}
+.audit-img img{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.audit-img{
+    position: relative;
+}
+.audit-img::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.audit-img h2{
+    position: absolute;
+    bottom: 5px;
+}
+
+
+/* GST SERVICES SECTION */
+.general-compliances tr, .general-compliances th, .general-compliances td{
+    border: 1px solid #000;
+    padding: 17px;
+}
+.gst-retainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* INDIRECT SERVICES SECTION */
+.indirect-tax{
+    line-height: 28px;
+    margin: 20px 0 20px 0;
+}
+.indirect-in{
+    margin-top: 20px;
+}
+
+/* VISION SECTION */
+.visi{
+    margin-top: 20px;
+}
+.mission{
+    margin: 20px 0 20px 0;
+}
+.goals img {
+    border: 2px solid #1f516d;
+    padding: 10px;
+    border-radius: 10px;
+}
+.missio{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+/* WHATS UP SECTION */
+.whats {
+    position: fixed;
+    right: 46px;
+    bottom: 123px;
+    font-size: 47px;
+    /* z-index: 2; */
+}
+.whats i {
+    background: green;
+    border-radius: 100%;
+    padding: 9px;
+}
+.overvie{
+    margin: 20px 0 20px 0;
+}
+.branch{
+    margin: 20px 0 20px 0;
+}
+
+/* OVERVIEW SECTION */
+.ov{
+    margin-top: 40px;
+}
+
+.eligible-criteria tr, .eligible-criteria td, .eligible-criteria th{
+    border: 1px solid #000;
+    padding: 17px;    
+}
+
+/* Contact US SECTION */
+.cont-us{
+    margin-bottom: 20px;
+}
+.fa-angle-right{
+    margin-right: 8px;
+}
