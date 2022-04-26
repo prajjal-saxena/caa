@@ -403,7 +403,7 @@ ul.testimonal-list.slick-initialized.slick-slider{
     width: 40%;
 }
 .who-we-are2{
-    line-height: 21px;
+    line-height: 21px!important;
 }
 
 /* AUDIT ASSURANCE SECTION */
