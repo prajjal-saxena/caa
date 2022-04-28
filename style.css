@@ -520,7 +520,7 @@ i.fa.fa-bars{
    i.fa.fa-bars {
        display: inline;
     position: fixed;
-    top: 68px;
+    top: 111px;
     right: 38px;
 }
 
@@ -583,6 +583,18 @@ ul.testimonal-list.slick-initialized.slick-slider{
 }
 section.cover::before{
     height: 378px; 
+}
+.nav-list {
+    transform: translateY(81px);
+    background: #fff;
+    position: relative;
+    left: 66px;
+}
+.nav-list .navi-li{
+    flex-wrap: wrap;
+}
+.nav-list .navi-li li{
+    width: 100%;
 }
 }
 
