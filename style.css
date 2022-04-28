@@ -93,7 +93,7 @@ nav {
     padding: 4px 15px 4px 15px;
     color: #fff;
 }
-
+ 
 .nav-list .navi-li li a{
     text-decoration: none;
     color: #000;
@@ -508,4 +508,112 @@ ul.testimonal-list.slick-initialized.slick-slider{
 }
 .fa-angle-right{
     margin-right: 8px;
+}
+i.fa.fa-bars{
+    display: none;
+}
+
+@media (max-width: 996px){
+   .nav-list{
+       display: none;
+   } 
+   i.fa.fa-bars {
+       display: inline;
+    position: fixed;
+    top: 68px;
+    right: 83px;
+}
+
+.we-are {
+    flex-wrap: wrap;
+}
+.we-are .who-we-are1 {
+    width: 100%;
+}
+.we-are .who-we-are-img {
+    width: 100%;
+}
+.who-we-are-img.who-img1 {
+    order: 2;
+}
+.services{
+    flex-wrap: wrap;
+}
+.our-services .box{
+    width: 46%;
+    margin-bottom: 58px;
+}
+.box h2{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.box p a{
+    font-size: 14px;
+}
+button.btn.btn-primary.btnho.hivebtn {
+    margin-top: 35px;
+}
+.box.business h2 {
+    margin-bottom: 0px;
+}
+.hobtn {
+    margin-top: 25px;
+}
+.footer{
+    grid-template-columns: repeat(1,auto);
+}
+ul.testimonal-list.slick-initialized.slick-slider{
+    max-width: 92%;
+    padding-left: 0px;
+}
+.poster{
+    flex-wrap: wrap;
+}
+.poster >div{
+    width: 100%;
+}
+.d-none{
+    display: block!important;
+}
+.carousel-inner{
+    height: 378px;
+}
+.carousel-item{
+    position: unset;
+}
+section.cover::before{
+    height: 378px; 
+}
+}
+
+@media (max-width: 600px){
+   
+    .who-we-are-img img {
+        width: 255px;
+        height: 189px;
+    }
+    .touch-with-us{
+        margin-top: 25px;
+    }
+    .logo img {
+        width: 156px;
+        height: 67px;
+    }
+
+    .whats{
+        right: 9px;
+
+    }
+    .whats i{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width: 532px){
+    .our-services .box{
+        width: 100%;
+    }
+    .poster{
+        font-size: 11px;
+    }
 }
