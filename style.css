@@ -618,6 +618,7 @@ section.cover::before{
 }
 .subnav-content{
     position: initial;
+    width: 100%;
 }
 }
 
