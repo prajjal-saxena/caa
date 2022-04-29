@@ -512,9 +512,55 @@ ul.testimonal-list.slick-initialized.slick-slider{
 i.fa.fa-bars{
     display: none;
 }
+.foote-sect{
+    background: rgb(87, 86, 86);
+}
+.foote-sect p{
+    margin-bottom: 0px!important;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+.nimit{
+    text-align: center;
+    background: #000;
+}
+.nimit p{
+    color: #fff;
+    margin-bottom: 0px;
 
-
+}
+.nimit a{
+    color: #fff;
+    text-decoration: none;
+}
+.design{
+    font-size: 20px;
+    font-weight: 800;
+}
 @media (max-width: 996px){
+    .touch-with-us{
+        margin-top: 30px;
+    }
+    .listIndustry{
+        flex-wrap: wrap;
+    }
+    .listIndustry .name img {
+        width: 189px;
+        height: 161px;
+    }
+    .listIndustry li {
+        width: 203px;
+        height: 175px;
+    }
+    .over {
+        width: 189px;
+        height: 161px;
+    }
+    .over p {
+        font-size: 9px;
+    }
     .overlay {
         position: fixed;
         width: 100%;
@@ -620,6 +666,9 @@ section.cover::before{
     position: initial;
     width: 100%;
 }
+.nav-list .navi-li{
+    padding: 20px;
+}
 }
 
 @media (max-width: 600px){
@@ -641,7 +690,7 @@ section.cover::before{
 
     }
     .whats i{
-        font-size: 15px;
+        font-size: 21px;
     }
     nav{
         height: 70px;
