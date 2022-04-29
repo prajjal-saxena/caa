@@ -192,6 +192,9 @@
             </div>
         </div>
      </section>
+     <div class="overlay over">
+         
+    </div> 
 
      <section class="our-services">
        <div class="container">
@@ -293,7 +296,7 @@
           </div>   
         </div>
       </section>
-      
+     
 
     <footer class="bw-space">
         <div class="container">
@@ -363,7 +366,9 @@ $('.slider').slick({
         $(document).ready(function(){
            $('.fa-bars').click(function(){
               $('.nav-list').toggle();
-           })
+              $('.overlay').toggle();
+           });
+          
         })
     </script>
 </body>
