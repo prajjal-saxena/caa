@@ -15,6 +15,23 @@
 </head>
 <body>
     <header>
+        <div class="post">
+          <div class="container">
+            <div class="poster">
+                <div>
+                  <span>Phone : 9999130871</span><span style="padding: 0 8px 0 8px;">|</span><span>Email id : info@nsc.ind.in</span>
+                </div>
+                  
+                <div>
+                    <span>Connect Us :</span>
+                    <span><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                </div>
+            </div>
+          </div>
+        </div>
         <div class="container">
             <nav>
                 <div class="logo">
@@ -40,6 +57,7 @@
                     </ul>
                 </div>
             </nav>
+            <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
     </header>
     <section class="cover-audit">
@@ -261,11 +279,32 @@
             </div>
         </div>
     </footer>
-
+    <div class="nimit">
+        <div class="container">
+          <a href="https://nimittech.com/" target="_blank">
+            <p>Designed & Developed by</p>
+            <p class="design"><span style="color: #0090c3;">Nimit</span> technologies pvt lmt</p></a>
+        </div>
+      </div>
+    <div class="foote-sect">
+        <div class="container">
+          <p>Copyright 2022 © Nidhi Sharma & Company.</p>
+        </div>
+      </div>
     
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+           $('.fa-bars').click(function(){
+              $('.nav-list').toggle();
+              $('.overlay').toggle();
+           });
+          
+        })
+    </script>
 </body>
 </html>
