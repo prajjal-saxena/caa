@@ -605,13 +605,13 @@ section.cover::before{
 .nav-list {
     transform: translateY(81px);
     background: #fff;
-    position: relative;
-    left: 66px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
 }
 .nav-list .navi-li{
     flex-wrap: wrap;
     background: #fff;
-    height: 537px;
 }
 .nav-list .navi-li li{
     width: 100%;
